@@ -1,0 +1,99 @@
+p{
+    color: rgb(8, 8, 8);
+}
+.yuyucallmebg h2{
+    color: rgb(233, 228, 228);
+}
+h2.mb-4{
+    margin-left: 210px;
+}
+.social-icons{
+    padding: 132px;
+    margin-left: 50px;
+    margin-top: 145px;
+}
+a.yuyulink{
+    padding: 10px 50px 5px 30px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 50px;
+    color: rgb(53, 47, 59);
+}
+a.yuyulink:hover{
+    background-color: rgb(153, 153, 153);
+    color: rgba(223, 222, 222, 0.362);
+}
+
+div.yuyudiv{
+    background-color: rgb(228, 228, 228);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(4, 4, 4);
+}
+h4.yuyusmallh4{
+    font-size: 18px;
+}
+section#about.resume-section{
+    background-color: rgb(232, 236, 236);
+}
+.yuyucrop{
+    height:300px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+.yuyucallmebg{
+    background-image:url("../assets/img/52000.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position:bottom center;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+cursor:grabbing;
+}
+.lead{
+    font-family: webdings;}
+    @keyframes bounce {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-10px); }
+}
+
+h2 {
+animation: bounce 1s infinite;
+}
+.item-title:hover {
+animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+0% { transform: translateY(0); }
+50% { transform: translateY(-5px); }
+100% { transform: translateY(0); }
+}
+.decor-box {
+background-color: #FFFFFF;
+border: 2px dashed #C3BEB8;
+padding: 20px;
+margin: 20px 0;
+border-radius: 12px;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+.run:hover {
+    background-color: #555; 
+    color: white;}
+.myButton{
+padding: 20px;
+margin: 20px 0;
+border-radius: 12px;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+margin-left: 250px;
+}  
+
+
